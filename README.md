@@ -57,7 +57,21 @@ python pipeline.py
 - `reports/sql_*.csv` — results from SQL analyses (hourly stats, z-score outliers, top amounts).
 - `models/model.joblib` — saved classifier.
 
-## Notes
-- We keep charts simple and use **matplotlib** (no seaborn).
-- SQL focuses on dataset-level anomalies; user segmentation is done in Python with KMeans since the dataset lacks a user ID.
-- License: MIT.
+
+---
+
+## 📝 Project Notes
+
+**Why this project?**  
+Built this to apply my ML knowledge to a real-world financial problem and demonstrate end-to-end project development skills.
+
+**Key takeaways:**  
+- Learned to handle severely imbalanced datasets using SMOTE
+- Understood that accuracy isn't always the right metric
+- Gained experience with modular code design and Git workflows
+- Discovered the importance of model interpretability in financial applications
+
+---
+**Date**: 13 January 2026  
+**Author**: Nibir  
+**Duration**: 1 week (including learning and implementation)
