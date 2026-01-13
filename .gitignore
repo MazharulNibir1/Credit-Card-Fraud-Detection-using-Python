@@ -1,0 +1,24 @@
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+data/raw/creditcard.csv
+reports/figures/
+models/
+dataset/
+
+
+# Data files
+data/*.csv
+data/*.npy
+*.csv
+
+# Model files  
+models/*.pkl
+models/*.h5
+
+# Large files
+*.zip
+*.gz
